@@ -3,7 +3,7 @@ name = "SigmaOS-app-runtime"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "app-runtime component"
+description = "App runtime model: sandboxed execution, resource limits, D-Bus activation"
 upstream = []
 
 [contract]
