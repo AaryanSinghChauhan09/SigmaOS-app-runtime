@@ -1,0 +1,11 @@
+[package]
+name = "sigmaos-app-runtime"
+version = "0.1.0"
+edition = "2021"
+authors = ["SigmaOS Team"]
+license = "MIT OR Apache-2.0"
+description = "Sandboxed application runtime with capability-based permissions and resource limits"
+
+[dependencies]
+
+[dev-dependencies]

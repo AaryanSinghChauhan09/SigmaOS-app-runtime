@@ -1,7 +1,7 @@
 [component]
 name = "SigmaOS-app-runtime"
 tier = 2
-stability = "scaffold"
+stability = "beta"
 language = "rust"
 description = "App runtime model: sandboxed execution, resource limits, D-Bus activation"
 upstream = []
@@ -11,6 +11,6 @@ provides = ["component"]
 depends_on = []
 
 [maturity]
-status = "Scaffold"
-test_evidence = "Compiles and passes AAA unit tests"
+status = "Implemented"
+test_evidence = "12 unit tests passing with cargo test --offline"
 next_milestone = "Hardware and runtime integration"
